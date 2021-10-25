@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Icarus</title>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="js/p5.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <script type="module" src="js/script.js"></script>
+</head>
+<body class="body">
+    <main class="page__content result">
+        <div class="content__game">
+            <button class="game__button">start</button>
+            <div class="game__canvas">
+                <canvas class="canvas" width="750" height="700"></canvas>
+            </div>
+            <div class="game__score">
+                0/20
+            </div>
+            
+        </div>
+        <div class="content__instructions">
+            <div class="instructions__instructions">
+                <div class="instructions__text">Welcome to Icarus. Help me catch enough feathers to make two pair of wings. Control the basket by moving your head left and right.</div>
+                <img class="instructions__textballoon" src="assets/img/text.svg" alt="text balloon">
+            </div>
+            <img class="instructions__daedalus" src="assets/img/daedalus__talking.png" alt="daedalus illustration">
+        </div>
+        
+    </main>
+    <audio class="audio" src="assets/sound/bastille-Icarus.mp3" loop>
+    </audio>
+
+    <div class="loading">
+        <img src="assets/img/loading.gif" alt="loading bar" class="loading__animation">
+        <p class="loading__text">Icarus is loading ...</p>
+    </div>
+    
+</body>
+</html>
